@@ -1,0 +1,10 @@
+<link rel="icon" type="image/png" href="<?php echo Idirectorio("home"); ?>_files/images/favicon.png">
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
+        <!-- css -->
+        <link rel="stylesheet" href="<?php echo Idirectorio("home"); ?>_files/vendor/bootstrap-4.2.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="<?php echo Idirectorio("home"); ?>_files/vendor/owl-carousel-2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="<?php echo Idirectorio("home"); ?>_files/css/style.css">
+        <!-- js --><script src="<?php echo Idirectorio("home"); ?>_files/vendor/jquery-3.3.1/jquery.min.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/vendor/owl-carousel-2.3.4/owl.carousel.min.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/vendor/nouislider-12.1.0/nouislider.min.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/js/number.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/js/main.js"></script><script src="<?php echo Idirectorio("home"); ?>_files/vendor/svg4everybody-2.1.9/svg4everybody.min.js"></script><script>svg4everybody();</script><!-- font - fontawesome -->
+        <link rel="stylesheet" href="<?php echo Idirectorio("home"); ?>_files/vendor/fontawesome-5.6.1/css/all.min.css">
+        <!-- font - stroyka --<link rel="stylesheet" href="fonts/stroyka/stroyka.css">--><script async src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-97489509-6');</script>

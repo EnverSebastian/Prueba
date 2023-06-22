@@ -1,0 +1,25 @@
+#ErrorDocument 404 /_pages_others/
+
+<IfModule mod_rewrite.c> 
+Options +FollowSymLinks
+Options +Indexes
+RewriteEngine On
+ErrorDocument 404 /PageError404/
+<IfModule mod_rewrite.c> 
+
+
+RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+AuthUserFile C:/xampp/htdocs/hesis/_files/.htpasswd
+AuthName "Sitio Restringido: Nombre y Usuario"
+AuthType Basic
+
+#require valid-user
+
+
+<Files "salir.php">
+ Require user salir
+</Files>
