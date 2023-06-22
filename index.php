@@ -1,3 +1,4 @@
+Hola
 <?php session_start();
 include ("_files/_cnx/_cnx.php");
 include ("_files/_funciones/_general.php");
